@@ -1,5 +1,5 @@
 ## Laravel CRUD API
-Basic Laravel CRUD API application  It's included with
+Basic Laravel CRUD API application
 
 ----
 
