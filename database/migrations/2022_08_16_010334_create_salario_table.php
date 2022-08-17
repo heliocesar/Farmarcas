@@ -14,7 +14,7 @@ class CreateSalarioTable extends Migration
     public function up()
     {
         Schema::create('salario', function (Blueprint $table) {
-            $table->integer('id')->primary();
+            $table->integer('id', true);
             $table->decimal('salario', 10);
             $table->integer('colaborador_id')->index('fk_salario_colaborador_idx');
             $table->timestamps();
