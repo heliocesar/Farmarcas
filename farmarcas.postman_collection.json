@@ -8,7 +8,8 @@
 		"8942ec34-1a60-5735-ce8f-065d873f8c39",
 		"0a1179b5-95d0-ed5d-b9d2-fdfd198efb4b",
 		"01eea27c-c62e-1756-25e4-fb876ad55b9e",
-		"dc78d281-5a82-9c1a-c34e-2ad55dc711de"
+		"dc78d281-5a82-9c1a-c34e-2ad55dc711de",
+		"d6068e07-d0c8-9499-9986-8bade32739f1"
 	],
 	"folders": [],
 	"folders_order": [],
@@ -215,6 +216,43 @@
 			"currentHelper": "normal",
 			"helperAttributes": {},
 			"rawModeData": "{\n\t\"nome_completo\":\"mario\",\n\t\"cpf\":\"44434\"\n\n}"
+		},
+		{
+			"id": "d6068e07-d0c8-9499-9986-8bade32739f1",
+			"headers": "Content-Type: application/json\nAccept: application/json\n",
+			"headerData": [
+				{
+					"key": "Content-Type",
+					"value": "application/json",
+					"description": "",
+					"enabled": true
+				},
+				{
+					"key": "Accept",
+					"value": "application/json",
+					"description": "",
+					"enabled": true
+				}
+			],
+			"url": "http://127.0.0.1:8000/api/calaborador/3",
+			"queryParams": [],
+			"pathVariables": {},
+			"pathVariableData": [],
+			"preRequestScript": null,
+			"method": "GET",
+			"collectionId": "2fd6a026-2ae7-e04b-5ff6-2954a3926398",
+			"data": [],
+			"dataMode": "raw",
+			"name": "http://127.0.0.1:8000/api/calaborador",
+			"description": "",
+			"descriptionFormat": "html",
+			"time": 1660710884073,
+			"version": 2,
+			"responses": [],
+			"tests": null,
+			"currentHelper": "normal",
+			"helperAttributes": {},
+			"rawModeData": "{\n\t\"email\":\"helio@21e20\",\n\t\"nome_completo\":\"helio\",\n\t\"cpf\":\"\",\n\t\"rg\":\"\",\n\t\"data_nascimento\":\"\",\n\t\"cep\":\"\",\n\t\"logradouro\":\"\",\n\t\"numero\":\"\",\n\t\"cidade\":\"\",\n\t\"estado\":\"\"\n}"
 		},
 		{
 			"id": "dc78d281-5a82-9c1a-c34e-2ad55dc711de",
